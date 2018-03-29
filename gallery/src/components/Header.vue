@@ -1,7 +1,7 @@
 <template>
     <header>
 
-        <h1>{{ title }}</h1>
+        <h1>Galerie <span class="badge badge-secondary">{{ title }}</span></h1>
     
      </header>
 </template>
@@ -11,7 +11,7 @@ export default {
   
   data () {
     return {
-        title: 'Nowy tytul'
+        title: 'ZDJEC'
     }
   }
  
