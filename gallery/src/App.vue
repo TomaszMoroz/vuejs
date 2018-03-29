@@ -1,0 +1,36 @@
+<template>
+  <div>
+   <app-Header></app-Header>
+   <app-show></app-show>
+   <app-Footer></app-Footer>
+ 
+  </div>
+</template>
+
+<script>
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+import Show from './components/Show.vue'
+import SinglePic from './components/SinglePic.vue'
+
+export default {
+
+  components: {
+    'app-Header': Header,
+    'app-Footer': Footer,
+    'singlePic': SinglePic,
+    'app-show': Show
+  },
+  
+  data () {
+    return {
+     
+    }
+  }
+ 
+}
+</script>
+
+<style scoped>
+
+</style>
