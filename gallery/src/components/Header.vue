@@ -2,6 +2,8 @@
     <header>
 
         <h1>Galerie <span class="badge badge-secondary"> {{ title }}</span></h1>
+        <hr>
+        <router-link to='/'>Home</router-link> <router-link to='/dogs'>Dogs</router-link> 
     
      </header>
 </template>
