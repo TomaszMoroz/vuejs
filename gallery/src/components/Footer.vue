@@ -29,6 +29,7 @@ h2{
     color: rgb(163, 163, 228);
     text-align: right;
     margin: auto 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 </style>

@@ -1,7 +1,7 @@
 <template>
     <header>
 
-        <h1>Galerie <span class="badge badge-secondary">{{ title }}</span></h1>
+        <h1>Galerie <span class="badge badge-secondary"> {{ title }}</span></h1>
     
      </header>
 </template>
