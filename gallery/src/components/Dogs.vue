@@ -1,14 +1,23 @@
 <template>
    <div>
        <h2>Routing dziala</h2>
+       <button type="button" class="btn btn-secondary" @click="goHome">Home</button>
    </div>
 </template>
 
 <script>
 export default {
+
+      methods: {
+            goHome(){
+                this.$router.push('/');
+            }
+        },
   
   data () {
     return {
+
+      
         
     }
   }
