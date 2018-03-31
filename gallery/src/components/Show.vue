@@ -11,6 +11,8 @@
        </div>
      
     </div>
+
+ 
  
 </template>
 
@@ -35,7 +37,7 @@ export default {
               
               this.hits = data.body.hits.slice(0, 10);
               console.log(this.hits)
-          
+             
           }
           )
   }
