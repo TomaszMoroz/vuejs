@@ -1,7 +1,7 @@
 <template>
   <div>
    <app-Header></app-Header>
-  <transition name="router-anim" enter-active-class="animated fadeInDown">
+  <transition name="router-anim" enter-active-class="animated fadeInDown" leave-active-class="animated bounceOutDown" mode="out-in">
      <router-view />
   </transition>
 
@@ -39,7 +39,9 @@ export default {
 
 <style>
 
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css"
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css";
+
+
 
 
 
