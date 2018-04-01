@@ -1,19 +1,15 @@
 <template>
+
     <div id="showsth">
-        <h1> dostepne galerie </h1>
 
-        
-
-       <div id="flex">
+        <div id="flex">
             <div  v-for="hit in hits" class="gal" > 
-          <img :src="hit.previewURL" width="200px" height="200px" />
-         </div>
+                <img :src="hit.previewURL" width="200px" height="200px" />
+            </div>
        </div>
      
     </div>
-
- 
- 
+    
 </template>
 
 <script>
@@ -24,8 +20,8 @@ export default {
   
   data () {
     return {
-       hits: [],
-       showGrid: false
+       hits: []
+       
     }
   },
   methods: {
@@ -36,10 +32,10 @@ export default {
           (data)=>{
               
               this.hits = data.body.hits.slice(0, 10);
-              console.log(this.hits)
+              
              
           }
-          )
+        )
   }
  
 }
