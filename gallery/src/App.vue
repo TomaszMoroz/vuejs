@@ -2,11 +2,11 @@
   <div>
     <app-Header></app-Header>
 
-    <transition name="router-anim" enter-active-class="animated slideInRight" leave-active-class="animated slideOutLeft" mode="out-in">
+    <transition name="router-anim" enter-active-class="animated flipInY" leave-active-class="animated slideOutLeft" mode="out-in">
         <router-view />
     </transition>
 
-   <app-Footer></app-Footer>
+  
  
   </div>
 </template>

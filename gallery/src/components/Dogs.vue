@@ -1,6 +1,7 @@
 <template>
 
-   <div class="gallery">
+   <div>
+       
        <h2>Routing dziala</h2>
        <button type="button" class="btn btn-secondary" @click="goHome">Home</button>
    </div>
@@ -30,6 +31,10 @@ export default {
 </script>
 
 <style scoped>
+
+div{
+    margin: 150px 0 0 ;
+}
 
 h2{
     font-size: 30px;
