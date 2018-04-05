@@ -3,21 +3,23 @@
 
         <h2>Choose your <span class="badge badge-secondary"> {{ title }}</span></h2>
        
-            <router-link to='/' ><button class="btn btn-outline-dark">Home</button></router-link>
-            <router-link to='/bteriers' ><button class="btn btn-outline-dark">Flowers</button></router-link> 
-            <router-link to='/test' ><button class="btn btn-outline-dark">Dogs</button></router-link> 
+            <section>
+                <router-link to='/' ><button class="btn btn-dark">Home</button></router-link>
+                <router-link to='/flowers' ><button class="btn btn-outline-dark">Flowers</button></router-link> 
+                <router-link to='/dogs' ><button class="btn btn-outline-dark">Dogs</button></router-link>
+            </section> 
     
      </header>
 </template>
 
 <script>
-export default {
+    export default {
     
   
-  data () {
-    return {
-        title: 'GALLERY'
-    }
+        data () {
+            return {
+                title: 'GALLERY'
+                }
   },
 
  
@@ -25,6 +27,10 @@ export default {
 </script>
 
 <style scoped>
+
+section{
+    margin: 5px 0;
+}
 
 header{
     background: rgb(188, 191, 192);

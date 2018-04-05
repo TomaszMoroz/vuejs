@@ -1,10 +1,9 @@
 <template>
 
     <div>
-           <div id="flex">
+           <div class="flex">
                 <div class="gall" v-for="(hit, index) in hits" :id="index"  >
-                    <img :src="hit.largeImageURL
-"   />
+                    <img :src="hit.previewURL"   />
            
                 </div>
             </div>
@@ -34,7 +33,7 @@ export default {
   
   },
   created(){
-      const text = 'dog';
+      const text = 'flower';
       this.$http.get('https://pixabay.com/api/?key=8532214-1e1d43f1d37e37643061b9fae&q='+text+ '&image_type=photo').then(
           (data)=>{
 
@@ -55,7 +54,7 @@ export default {
 <style scoped>
 
 
-#flex{
+.flex{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
