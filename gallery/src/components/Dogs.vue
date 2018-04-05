@@ -7,9 +7,7 @@
            
                 </div>
             </div>
-        
-    
-  </div>
+    </div>
     
      
 </template>
@@ -37,13 +35,9 @@ export default {
       this.$http.get('https://pixabay.com/api/?key=8532214-1e1d43f1d37e37643061b9fae&q='+text+ '&image_type=photo&per_page=40').then(
           (data)=>{
 
-              console.log(data)
-              
               this.hits = data.body.hits.slice(0, 30);
               
-             
-          }
-        )
+             })
   },
 
 
