@@ -33,7 +33,7 @@ export default {
   
   },
   created(){
-      const text = 'dog';
+      const text = 'man';
       this.$http.get('https://pixabay.com/api/?key=8532214-1e1d43f1d37e37643061b9fae&q='+text+ '&image_type=photo&per_page=40').then(
           (data)=>{
 

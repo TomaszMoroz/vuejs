@@ -14,9 +14,10 @@
 <script>
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
-import Show from './components/Show.vue'
+import Flowers from './components/Flowers.vue'
 import Home from './components/Home.vue'
 import Dogs from './components/Dogs.vue'
+import People from './components/People.vue'
 
 export default {
 
@@ -24,8 +25,9 @@ export default {
     'app-Header': Header,
     'app-Footer': Footer,
     'home': Home,
-    'app-show': Show,
-    'dogs': Dogs
+    'flowers': Flowers,
+    'dogs': Dogs,
+    'people': People,
   },
   
   data () {

@@ -7,6 +7,7 @@
                 <router-link to='/' ><button class="btn btn-dark">Home</button></router-link>
                 <router-link to='/flowers' ><button class="btn btn-outline-dark">Flowers</button></router-link> 
                 <router-link to='/dogs' ><button class="btn btn-outline-dark">Dogs</button></router-link>
+                <router-link to='/people' ><button class="btn btn-outline-dark">People</button></router-link>
             </section> 
     
      </header>
